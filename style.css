@@ -23,7 +23,6 @@ html {
 }
 
 pre {
-    margin-left: 30px;
     font-size: 21px;
     line-height: 21px;
 }
@@ -46,4 +45,13 @@ a:hover {
     width: auto;
     height: 50%;
     pointer-events: none;
+}
+
+.centered {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }

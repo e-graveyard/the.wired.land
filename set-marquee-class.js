@@ -14,4 +14,5 @@ const setMarqueeClass = (className, direction, interval) => {
 setMarqueeClass('back-marquee', 'backwards', 15);
 setMarqueeClass('forw-marquee', 'forwards', 15);
 
-setMarqueeClass('moving-banner', 'backwards', 100);
+setMarqueeClass('back-moving-banner', 'backwards', 100);
+setMarqueeClass('forw-moving-banner', 'forwards', 100);
